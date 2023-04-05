@@ -1,0 +1,16 @@
+.dados{
+    background-image: linear-gradient(0deg, #9e06b8, #5a0b5e);
+    color: white;
+  }
+  th{
+    border-bottom: none;
+    color: #ffffff;
+  }
+  thead{
+    background-color: #88059f;
+  }
+  
+  .dados td{
+    border-bottom: none;
+    /* border-color: none; */
+  }

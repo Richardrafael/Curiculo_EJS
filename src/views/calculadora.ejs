@@ -1,0 +1,44 @@
+<%- include("header") -%>
+<link rel="stylesheet" href="css/calculadora.css">
+    <title>Calculado</title>
+    <div>
+    <h1 style="text-align: center;">Calculadora</h1>
+    </div>
+    <section class="container_calculado" >
+    <div style="padding-top: 4rem;">
+    <div id="resultado"style="padding-bottom: 1rem;text-align: end;font-size: xx-large; margin-right: 1rem; padding-top: 1.5rem;width: 415px;margin:auto; height-min: 4rem ;"></div>
+        <div class="numeros cada_numero" >
+            <button onclick="insert('/')" style="width: 100%;  height: 100%; border-radius: 15px 0px 0px;"><p>÷</p></button>
+            <button onclick="clean()" style="width: 100%;  height: 100% ;" ><p>CE</p></button>
+            <button onclick="clean()" style="width: 100%;  height: 100%"><p>C</p></button>
+            <button onclick="clean()" style="width: 100%;  height: 100%; border-radius: 0px 15px 0px 0px;" ><p>Apagar</p></button>
+            <button onclick="insert('*')"style="width: 100%;" id="mutiplica"><p>X</p></button>
+            <button onclick="insert('7')" style="width: 100%;"><p>7</p></button>
+            <button onclick="insert('8')" style="width: 100%;"><p>8</p></button>
+            <button onclick="insert('9')" style="width: 100%;"><p>9</p></button>
+            <button onclick="insert('-')" style="width: 100%;"><p>-</p></button>
+            <button onclick="insert('4')" style="width: 100%;"><p>4</p></button> 
+            <button onclick="insert('5')" style="width: 100%;"><p>5</p></button>
+            <button onclick="insert('6')" style="width: 100%; "><p>6</p></button>
+            <button onclick="insert('+')" ss="operador" style="width: 100%;"><p>+</p></button>
+            <button onclick="insert('1')" style="width: 100%;"><p>1</p></button>
+            <button onclick="insert('2')"style="width: 100%;"><p>2</p></button>
+            <button onclick="insert('3')"style="width: 100%;"><p>3</p></button>
+            <button onclick="insert('negativo')"style="width: 100%; border-radius: 0px 0px 0px 15px;"><p>Negativo</p></button>
+            <button onclick="insert('0')"style="width: 100%;"><p>0</p></button>
+            <button onclick="insert('.')" style ="width: 100%;"><p>,</p></button>
+            <button onclick="calcular()"class="igual"  style="width: 100%;
+             background-color: blue; 
+             color: rgb(255, 255, 255); 
+             border-radius: 0px 0px 15px 0px">
+             <p>=</p>
+            </button>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <p style="text-align: center;">&copy;Richard.soarres</p>
+    </footer>
+
+    <script src="js/calculadora.js"></script>

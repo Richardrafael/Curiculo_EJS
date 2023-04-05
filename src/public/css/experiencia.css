@@ -1,0 +1,66 @@
+.experiencia{
+    /* background-color: red; */
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.projetos {
+    /* background-color: yellow; */
+    width: 40%;
+    height: 72%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container_exp{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: green; */
+    justify-content: center;
+}
+
+
+#ter{
+ width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+#experiencia{
+    padding-bottom: 2rem;
+}
+
+.container_pri{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: green; */
+    justify-content: space-around;
+}
+
+
+.github{
+    width: 0;
+    background-color: red;
+    display: flex;
+    margin: auto;
+}
+
+
+/* i{
+    display: flex;
+    margin: auto;
+} */

@@ -1,0 +1,26 @@
+.texto{
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  flex-direction: column;
+  height:80%;
+  margin: auto;
+}
+
+
+.container_texto{
+  height: 90%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#contatos{
+    font-size: 5rem;
+}

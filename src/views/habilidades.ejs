@@ -1,0 +1,29 @@
+<%- include("header") -%>
+<link rel="stylesheet" href="css/habilidades.css">
+
+<div class="conteudo1">
+    <div class="container">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Habilidade</th>
+                <th>Nivel</th>
+                <!-- <th>imagem</th> -->
+            </tr>
+            </thead>
+            <tbody class="dados" >
+            <% for(var i=0; i< lista_habilidades.length; ++i) { %>
+                <tr >
+                    <td id="dados"><%=lista_habilidades[i].nome_habilidades %></td>
+                    <td id="dados"><%=lista_habilidades[i].nivel %> 
+                    </td>  
+                </tr>
+             <% } %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+</div>
+
+<%- include("footer_branco") -%>
