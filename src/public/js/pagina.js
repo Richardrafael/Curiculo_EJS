@@ -9,9 +9,9 @@ const status1 = document.getElementById("status1")
 
 
 
-objetivo.innerHTML = `Procuro uma oportunidade de estágio na área de Análise e desenvolvimento de sistemas
-para aplicar os conhecimentos teóricos da graduação e, assim, desenvolver as habilidades
-requeridas para a profissão`
+objetivo.innerHTML = `Procuro uma oportunidade de estágio na área de Análise e desenvolvimento de sistemas ,
+para aplicar os conhecimentos teóricos da graduação e assim, desenvolver as habilidades
+requeridas para a profissão.`
 
 
 

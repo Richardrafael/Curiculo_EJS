@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image:linear-gradient(180deg ,  rgb(228, 117, 248) ,rgb(167 22 193 / 86%));
+    background-image: linear-gradient(180deg , rgb(139 171 152) ,rgb(22 169 193 / 86%));
     }
 
     .conteudo_footer_branco{
@@ -13,7 +13,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-image:linear-gradient(180deg ,  rgba(255, 255, 255, 0) ,rgba(167, 22, 193, 0.595));
+        background-image: linear-gradient(180deg , rgb(164 165 167 / 15%) ,#198754)
         }
     
 

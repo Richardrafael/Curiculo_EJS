@@ -1,18 +1,3 @@
-
-/* .emcima{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 3rem;
-    align-items: center;
-
-} */
-
-
-.conteudo1 h1{
-    color: rgba(229, 72, 235, 0.59);
-}
 .conteudo2 h1{
     color: white;
 }
@@ -104,8 +89,9 @@ h1{
 
 
 #texto{
-    color: rgb(228, 117, 248);
-word-break: break-word;
+    color: #333;
+    font-size: 1.5rem;
+    word-break: break-word;
 }
 
 
@@ -127,6 +113,8 @@ word-break: break-word;
 
 #titulo{
     padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 
@@ -142,3 +130,35 @@ height: 30%;
 display: flex;
 margin: auto;
 }
+
+
+.foto{
+    animation-name: moveright; /* nome da animação */
+    animation-duration: 20s; /* duração da animação */
+    animation-iteration-count: infinite; /* número de repetições (infinite para repetir infinitamente) */
+    animation-direction: alternate; /* direção da animação (pode ser normal, alternate, reverse ou alternate-reverse) */
+ }
+ 
+ @keyframes moveright {
+    0% {
+        border-radius: 30% 100% 100% 100%
+      }
+      50% {
+        border-radius: 100% 30% 100% 100%
+      }
+    75% {
+        border-radius: 100% 100% 30% 100%
+      }
+      100% {
+        border-radius: 100% 100% 100% 30%
+      }
+ }
+
+
+ .foto{
+    animation-name: moveright; /* nome da animação */
+    animation-duration: 20s; /* duração da animação */
+    animation-iteration-count: infinite; /* número de repetições (infinite para repetir infinitamente) */
+    animation-direction: alternate; /* direção da animação (pode ser normal, alternate, reverse ou alternate-reverse) */
+ }
+ 

@@ -1,16 +1,20 @@
 .dados{
-    background-image: linear-gradient(0deg, #9e06b8, #5a0b5e);
+    background-image: linear-gradient(0deg, #032314,#83ad99);
     color: white;
+    font-family: 'Montserrat', sans-serif;
   }
   th{
     border-bottom: none;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
   }
   thead{
-    background-color: #88059f;
+    background-color: #83ad99;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .dados td{
     border-bottom: none;
+    font-family: 'Montserrat', sans-serif;
     /* border-color: none; */
   }
